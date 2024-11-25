@@ -22,6 +22,7 @@ namespace Task_1
             this.Text = textBox1.Text;
             textBox1.Text = "";
             textBox1.Focus();
+            pictureBox1.Image = Image.FromFile("../../image/2.png");
         }
     }
 }
